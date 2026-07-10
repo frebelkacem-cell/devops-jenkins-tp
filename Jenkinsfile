@@ -16,5 +16,10 @@ pipeline {
                 junit 'target/surefire-reports/*.xml'
             }
         }
+        stage('Summary') {
+            steps {
+                echo 'Pipeline mis a jour automatiquement via webhook GitHub.'
+            }
+        }
     }
 }
