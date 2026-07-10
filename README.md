@@ -25,3 +25,12 @@ mvn test
 mvn package
 java -jar target/calculator-app.jar
 ```
+
+## Rapport du projet
+
+Le rapport complet du cours DevOps/Jenkins (les 9 TP realises : Freestyle, Maven, webhook GitHub, SonarQube/JaCoCo, build parametre, deploiement Tomcat, Pipeline, agent maitre-esclave, securite/sauvegarde) se trouve dans le dossier [`rapport/`](rapport/) :
+
+- [`Rapport_TP_DevOps_Jenkins.pdf`](rapport/Rapport_TP_DevOps_Jenkins.pdf) - version PDF complete avec captures d'ecran
+- [`Rapport_DevOps_Jenkins.html`](rapport/Rapport_DevOps_Jenkins.html) - version interactive (a telecharger puis ouvrir dans un navigateur)
+
+**A ouvrir en priorite : le fichier `Rapport_DevOps_Jenkins.html`**, qui presente une synthese visuelle du projet (schema du pipeline, statistiques, captures cle) en complement du PDF.
