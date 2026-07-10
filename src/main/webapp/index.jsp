@@ -8,6 +8,7 @@
 <body>
     <h1>Calculator App</h1>
     <p>Application deployee automatiquement par Jenkins sur Tomcat.</p>
+    <p><em>Redeploiement automatique teste via webhook GitHub.</em></p>
     <%
         Calculator calc = new Calculator();
     %>
